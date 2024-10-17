@@ -4,13 +4,33 @@
 - **Target Audience**:  
   This project is intended for data scientists, analysts, and real estate developers who aim to analyze and predict income, population trends, and affluence in various suburbs across Victoria, Australia.
   
-- **Sources**:  
-  The data used in this project includes:
-  - Australian Bureau of Statistics (ABS) income data for regions (`ABS_Income_including_government_allowances_by_2021_SA2_Nov_2023.csv` and `au-govt-abs-abs-data-by-region-income-asgs-sa2-2011-2019-sa2-2016.csv`).
-  - Demographic data from the ABS (`33010DO002_2022_ST_AUST.xlsx`) for population and fertility.
-  - Shapefile data (`SA2_2021_AUST_GDA2020.shp`) for geographic boundaries of Statistical Areas Level 2 (SA2).
-  - Crime data (`https://www.crimestatistics.vic.gov.au/crime-statistics/latest-victorian-crime-data/download-data`) for crime analysis
-  - Rental data: Obtained through web scraping of domain.com.au
+"## Datasets Used\n",
+    "\n",
+    "1. **Australian Bureau of Statistics (ABS) Income Data**  \n",
+    "   - *Source*:  \n",
+    "     - Income data obtained from [Aurin, ABS](https://adp-access.aurin.org.au/dataset/au-govt-abs-abs-data-by-region-income-asgs-sa2-2011-2019-sa2-2016)  \n",
+    "   - These dataset provides regional income data, including government allowances, which are critical for understanding the financial landscape of different SA2 regions across Australia.\n",
+    "\n",
+    "2. **Demographic Data from ABS**  \n",
+    "   - *Source*:  \n",
+    "     - Demographic data from [ABS](https://www.abs.gov.au/statistics/people/population/births-australia/latest-release#data-downloads)  \n",
+    "   - This dataset provides population and fertility data, which we use to project population growth and future housing demand, especially relevant for student accommodations.\n",
+    "\n",
+    "3. **Geospatial Data (Shapefiles)**  \n",
+    "   - *File*:  \n",
+    "     - `SA2_2021_AUST_GDA2020.shp`  \n",
+    "   - This shapefile contains geographic boundary data for Statistical Areas Level 2 (SA2). It allows us to map our data spatially and perform location-based analysis.\n",
+    "\n",
+    "4. **Crime Data**  \n",
+    "   - *Source*:  \n",
+    "     - Crime data obtained from [Crime Statistics Agency, Victoria](https://www.crimestatistics.vic.gov.au/crime-statistics/latest-victorian-crime-data/download-data)  \n",
+    "   - This dataset is used to analyze the impact of crime on rental prices and livability in different regions.\n",
+    "\n",
+    "5. **Rental Data**  \n",
+    "   - *Source*:  \n",
+    "     - Scraped from domain.com.au  \n",
+    "   - Rental data is collected through web scraping efforts to gather information on current rental prices, property attributes, and availability.\n",
+    "\n",
 
 - **Aim**:  
   The objective of this project is to clean and merge income and population data with geographic shapefiles, handle missing values using machine learning techniques, forecast population and income trends, compute affluence scores, and provide insights into future demographic and economic conditions in Victoria.
