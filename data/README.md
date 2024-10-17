@@ -1,7 +1,7 @@
 # Data Documentation
 
 ## Introduction
-This section provides a brief overview of the datasets used in this project
+This README provides a brief overview of the datasets used in this project.
   
 ## Datasets Used
 
