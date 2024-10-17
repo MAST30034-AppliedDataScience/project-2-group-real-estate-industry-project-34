@@ -7,7 +7,7 @@ This README provides a brief overview of the datasets used in this project.
 
 1. **Australian Bureau of Statistics (ABS) Income Data**
    - **Source:**
-     - Income data obtained from [Aurin](https://aurin.org.au/) and [ABS](https://www.abs.gov.au/)
+     - Income data obtained from [Aurin, ABS]([https://www.abs.gov.au/](https://adp-access.aurin.org.au/dataset/au-govt-abs-abs-data-by-region-income-asgs-sa2-2011-2019-sa2-2016))
    - These datasets provide regional income data, including government allowances, which are critical for understanding the financial landscape of different SA2 regions across Australia.
 
 2. **Demographic Data from ABS**
@@ -70,51 +70,6 @@ This README provides a brief overview of the datasets used in this project.
    - **Crime Data**: Random forest regression was used to predict crime rates for 2011 - 2014 and 2025 - 2027.
    - **Rental data**: N/A
 
----
-
-## Finalized Model
-**Utilized random forest**:
-  - Ran hyperparameter tuning multiple times using different samples, then tried certain sets that produced higher RMSE on the full training and validation set
-  - Experimented with RFE and feature selection, but resulted in worse results and since features were not too many, we decided to use all the features
-  - ![plot](./Feature_importance.png)
-
-
----
-
-## Affluence Score Insights
-
-1. **Affluence Score Calculation**:  
-   - The affluence score was calculated using PCA and Linear Regression, leveraging income data from 2020.
-   - The top 10 suburbs with the highest affluence scores include:
-     - **Carlton**
-     - **Toorak**
-     - **Doncaster**
-     - **Box Hill**
-     - **Glen Waverley - East**
-   - Affluence scores were aggregated by suburb to identify the most affluent regions in Victoria.
-
-2. **Median Income Prediction**:  
-   - Median income for each suburb was predicted using Linear Regression on selected principal components from the PCA model.
-   - Forecasts for years 2011, 2014, 2015, 2016, and 2017 were generated based on income data trends.
-
-3. **Population Forecasting**:  
-   - Using ARIMA, population growth was forecasted for the years 2023 and 2024. Historical data from 2011 to 2022 was used to train the model, and additional insights were generated for both individual suburbs and the overall population trends in Victoria.
-
----
-
-## Additional Section (Improvements)
-
-- **Evaluation Metrics**:  
-   - **Income Data**: Model performance for income prediction was evaluated using Mean Squared Error (MSE) and R² score. PCA-based feature reduction was validated by assessing the explained variance.
-   - **Population Data**: The ARIMA model can be further validated by comparing predicted and actual values for years 2021 and 2022.
-
-- **Visualization**:  
-   - Cumulative explained variance was plotted for PCA to decide the number of principal components to retain. Additional visualizations, such as heatmaps of affluence scores and population trends across suburbs, would enhance the understanding of data distribution.
-   
-- **Further Feature Engineering**:  
-   Additional factors such as real estate prices, migration data, and socio-economic indicators could be incorporated to further improve the affluence model and population forecast. Additionally, future models can benefit from including long-term historical income and population trends to enhance predictions.
-
----
 
 
 
