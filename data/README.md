@@ -1,8 +1,7 @@
-# Project Documentation
+# Data Documentation
 
 ## Introduction
-- **Target Audience**:  
-  This project is intended for data scientists, analysts, and real estate developers who aim to analyze and predict income, population trends, and affluence in various suburbs across Victoria, Australia.
+This section provides a brief overview of the datasets used in this project
   
 ## Datasets Used
 
@@ -17,8 +16,8 @@
    - This dataset provides population and fertility data, which we use to project population growth and future housing demand, especially relevant for student accommodations.
 
 3. **Geospatial Data (Shapefiles)**
-   - **File:**
-     - `SA2_2021_AUST_GDA2020.shp`
+   - **Source:**
+     - Shapefile from [ABS](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files)
    - This shapefile contains geographic boundary data for Statistical Areas Level 2 (SA2). It allows us to map our data spatially and perform location-based analysis.
 
 4. **Crime Data**
