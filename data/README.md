@@ -4,7 +4,15 @@
 - **Target Audience**:  
   This project is intended for data scientists, analysts, and real estate developers who aim to analyze and predict income, population trends, and affluence in various suburbs across Victoria, Australia.
   
-"## Datasets Used\n",
+{
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Dataset and Preprocessing\n",
+    "\n",
+    "The data used in this project comes from a variety of sources, including government datasets and web scraping efforts. Each dataset has been preprocessed separately to ensure quality and consistency before analysis. The preprocessing steps for each dataset are detailed in their individual notebooks.\n",
+    "\n",
+    "## Datasets Used\n",
     "\n",
     "1. **Australian Bureau of Statistics (ABS) Income Data**  \n",
     "   - *Source*:  \n",
@@ -31,6 +39,18 @@
     "     - Scraped from domain.com.au  \n",
     "   - Rental data is collected through web scraping efforts to gather information on current rental prices, property attributes, and availability.\n",
     "\n",
+    "## Preprocessing Steps\n",
+    "\n",
+    "Each dataset underwent its own preprocessing steps to ensure that the data was ready for analysis. The preprocessing steps included tasks such as:\n",
+    "\n",
+    "- **Cleaning**: Removing any missing or invalid data entries.\n",
+    "- **Transformation**: Standardizing units and formats for consistency.\n",
+    "- **Feature Engineering**: Creating new features such as distance to the nearest transportation, proximity to schools, or calculating rent price per square meter.\n",
+    "- **Merging**: Combining multiple datasets (e.g., income data, demographic data, and rental data) based on SA2 regions for a comprehensive analysis.\n",
+    "\n",
+    "The detailed preprocessing steps can be found in their respective notebooks within the project repository.\n"
+   ]
+  }
 
 - **Aim**:  
   The objective of this project is to clean and merge income and population data with geographic shapefiles, handle missing values using machine learning techniques, forecast population and income trends, compute affluence scores, and provide insights into future demographic and economic conditions in Victoria.
