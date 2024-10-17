@@ -1,14 +1,18 @@
-#Generic Real Estate Consulting Project
-Groups should generate their own suitable `README.md`.
-
-See the `scrape.py` file in the `scripts` directory to get started scraping data. 
-
-# Instruction With Info of File:
-Files with scrape_second, scrape_third is used for scraping data from the ABS, national census, open street map with our domain web scraper. 
+# Repository Overview:
+Files with scrape in its name are used for scraping data from domain
 
 Files with 'preprocessing' and 'cleaning' includes the steps we did to preprocess our data.
 
 Files with 'join' includes our joining process of our data. 
+
+Files with 'model' includes our model used to predict growth and demand. 
+
+Files with 'mapping' are used to create geospatial maps of our data.
+
+# How to get the Project started:
+
+Run our notebooks in numerical order, using the numbers in front of the file names as guidelines
+
 
 
 liveability_analysis.ipynb: Contains the analysis of livability factors such as access to amenities, crime rates, and transport, and their relation to property prices and rental affordability.
