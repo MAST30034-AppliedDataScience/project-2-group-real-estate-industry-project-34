@@ -3,7 +3,7 @@
 ## Project Aim
 
 This project aims to derive insights on which SA2s in Victoria is best for developing new apartments, based on rental price growth and demand in that area. By creating a model that forecasts 2025-2027, data we hope to create recommendations on which areas will have more growth and demand than others while also answering three questions:
-1. What are the most internal and external features that affect rental price ?
+1. What are the most internal and external features that affect rental price?
 2. What are the top 10 suburbs in predicted rental price growth?
 3. What are the most liveable and affordable suburbs?
 
