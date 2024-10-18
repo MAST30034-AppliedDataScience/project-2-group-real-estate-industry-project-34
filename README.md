@@ -67,6 +67,9 @@ This includes:
 - **Rental Data**: Collected through web scraping, providing information on current rental prices, property attributes, and availability.
 - **Demographic Data**: Population and income statistics from the Australian Bureau of Statistics (ABS), essential for forecasting trends in the housing market.
 - **Crime Data**: Sourced from the Crime Statistics Agency, Victoria, to assess the impact of safety on property values.
+- **School Zone Data**: Sourced from DataVic, the Victorian Government's open data platform, to assess proximity of schools and universities.
+- **PTV Stops Data**: Sourced from DataVic, to assess proximity to nearest public transport stop operated by PTV.
+- **Amenities Data**: Sourced from Open Street Maps public API, to assess the proximity of parks, malls, and hospitals.
 
 Please refer to the `data/README.md` for a complete breakdown and the corresponding files used in the project.
 
