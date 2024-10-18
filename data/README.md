@@ -51,7 +51,6 @@ This README provides a brief overview of the datasets used in this project.
    - **Crime data**: Removed rows irrelevant for analysis per SA2, e.g (Justice Institutions and Immigration Facilities) and converted strings to numerical data
    - **Rental data**: Filtered for rental listings that contain price. Removed outliers (negative price, highly unlikely number of bedrooms and bathrooms, etc.). Missing coordinates were also imputed using google maps API.
 
-
 3. **Feature Engineering**:
    - **Income Data**: Features related to personal income, investment income, superannuation, and government allowances were used for analysis. After cleaning, the dataset was standardized for PCA.
    - **Population Data**: Features such as population estimates, birth rates, and fertility rates across years were used to forecast future population trends.

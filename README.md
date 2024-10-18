@@ -43,8 +43,11 @@ Several API keys are required to run various parts of this project. Follow the i
    - Add this key to your environment file or `config/api_key.txt`.
 
 3. **Domain.com.au API Key (for scraping property data)**  
-   - Sign up for an API key at [Domain Developers Portal](https://developer.domain.com.au/).
-   - Use this key in the `2_scrape.py` script for fetching property listings.
+   - Sign up for an account in [Domain Developers Portal](https://developer.domain.com.au/).
+   - Then, go to projects and create a new project. 
+   - After that, go to API Access and click on "Add API". Click "Add to Project" in Listings Management.
+   - Create an OAuth Client, which gives you the client details and client secret, which you can use to access the API from the notebooks.
+   - Use this for the `1_scrape.py` script for fetching property listings. You can create up to 3 projects under one account to scrape more data as Domain limits you to 500 pages per day per project.
    
 Make sure to store your keys securely (such as in `.env` files) and never hardcode them directly in your scripts to avoid exposing sensitive information.
 
@@ -60,11 +63,9 @@ This includes:
 
 Please refer to the `data/README.md` for a complete breakdown and the corresponding files used in the project.
 
-
-## 4. Data Scraping
+## 5. Data Scraping
 
 The project makes use of rental data scraped from domain. More information on this can be found in the scrape files in `notebooks`.
-
 
 ## 6. Data Preprocessing
 
