@@ -70,7 +70,7 @@ This README provides a brief overview of the datasets used in this project.
    - **Population Data**: Features such as population estimates, birth rates, and fertility rates across years were used to forecast future population trends.
    -  **Crime Data**: No feature engineering needed, features were adequate
    - **Rental data**: Date into number of days since January 1, 2011, days on the market, bed and bath interaction, etc, before joining with other metrics: population, distance to public transportation, distance to amenities, etc.
-   - **Amenities data**: Combined with listings dataset to calculate Euclidean distance from each listing, creating new features 'distance_to[amenity]' adding to the dataframe.
+   - **Amenities data**: Combined with listings dataset to calculate Euclidean distance from each listing, creating new features 'distance_to_[amenity]' adding to the dataframe.
    - **PTV data**: Combined with listings dataset to calculate Euclidean distance from each listing to PTV stop, creating new feature and adding it to dataframe.
    - **Schoolzone data**: Combined with listings dataset to calculate Euclidean distance from each listing to nearest school, creating new distance feature and added to dataframe. 
 
@@ -78,19 +78,14 @@ This README provides a brief overview of the datasets used in this project.
    - **Income Data**: Correlation analysis and Recursive Feature Elimination (RFE) were used to select significant features for income prediction, with PCA applied to reduce dimensionality.
    - **Population Data**: Population and fertility rates were key features used for time series forecasting using the ARIMA model.
    - **Crime Data**: Crime rates throughout the years were all equally important
-   - **Rental data**: N/A
-   - **Amenities data**: N/A
-   - **PTV data**: N/A
-   - **Schoolzone data**: N/A
 
-5. **Prediction of Future Data (Insights)**:
+
+5. **Prediction of Future Data (Forecasting)**:
    - **Income Data**: Linear Regression and PCA were used to predict income trends and compute affluence scores. Forecasts for median income in different suburbs were generated, with affluence scores identifying the most affluent suburbs in Victoria.
    - **Population Data**: ARIMA forecasting predicted population growth for 2023 and 2024, with insights indicating potential future population changes for individual suburbs and the entire state of Victoria.
    - **Crime Data**: Random forest regression was used to predict crime rates for 2011 - 2014 and 2025 - 2027.
-   - **Rental data**: N/A
-   - **Amenities data**: N/A
-   - **PTV data**: N/A
-   - **Schoolzone data**: N/A
+
+
   
 
 
