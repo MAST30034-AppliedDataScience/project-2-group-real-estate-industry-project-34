@@ -35,15 +35,15 @@ This README provides a brief overview of the datasets used in this project.
      - School zone location obtained from [DataVic, Victoria](https://discover.data.vic.gov.au/dataset/victorian-government-school-zones-2024)
    - This dataset is used to calculate the proximity of each rental listing to the nearest school and school zone in the area.
      
-8. **Amenities Data**
+7. **Amenities Data**
    - **Source:**
      - Dataset obtained from [Open Street Maps](https://www.openstreetmap.org) 
    - Amenities Data is collected through accessing the public API from Open Street Maps to calculate proximity from each listing to nearest mall, hospital, and parks among other locations of interest.
      
-10. **PTV Data**
+8. **PTV Data**
    - **Source:**
      - PTV Data is obtained from [DataVic, Department of Transport and Planning](https://discover.data.vic.gov.au/organization/department-transport-planning)
-   - PTV stop data is used to calculate the proximity of each rental listing to the nearest public transport stop in the area. 
+   - PTV location data is used to calculate the proximity of each rental listing to the nearest public transport stop in the area. 
 
 
 - **Aim**:  
