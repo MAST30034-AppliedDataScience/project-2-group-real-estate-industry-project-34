@@ -45,10 +45,6 @@ This README provides a brief overview of the datasets used in this project.
      - PTV Data is obtained from [DataVic, Department of Transport and Planning](https://discover.data.vic.gov.au/organization/department-transport-planning)
    - PTV location data is used to calculate the proximity of each rental listing to the nearest public transport stop in the area. 
 
-
-- **Aim**:  
-  The objective of this project is to clean and merge income and population data with geographic shapefiles, handle missing values using machine learning techniques, forecast population and income trends, compute affluence scores, and provide insights into future demographic and economic conditions in Victoria.
-
 ---
 
 ## Datasets: Crime, Income, Fertility (Population), Rental
